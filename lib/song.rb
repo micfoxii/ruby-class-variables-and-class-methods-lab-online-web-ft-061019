@@ -16,6 +16,9 @@ class Song
     @@artists.push(artist)
   end
   
+  def self.count
+    @@count
+  end
   
   
 end
